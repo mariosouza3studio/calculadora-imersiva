@@ -9,9 +9,9 @@ import { useThree } from "@react-three/fiber";
 import { gsap } from "gsap";
 
 // Novas cores para um ambiente noturno mais dark e roxo
-const NIGHT_COLOR = new THREE.Color("rgba(21, 4, 39, 1)"); // Quase preto, com um toque roxo
+const NIGHT_COLOR = new THREE.Color("rgba(13, 0, 26, 1)"); // Quase preto, com um toque roxo
 const DAY_COLOR = new THREE.Color("#87CEFA"); // Mantém o azul claro do dia
-const FOG_COLOR_NIGHT = new THREE.Color("rgba(14, 2, 26, 1)"); // Neblina roxa escura
+const FOG_COLOR_NIGHT = new THREE.Color("#100018"); // Neblina roxa escura
 const FOG_DENSITY_NIGHT = 0.015;
 const FOG_DENSITY_DAY = 0.002;
 
